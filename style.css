@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  background: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+/* LEFT SIDE STYLING */
+.left-side {
+  background: url(./assets/desktop\ backround.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 895px;
+  height: 863px;
+  padding: 70px 180px;
+}
+
+#we-re {
+  margin-top: 110px;
+  font-size: 70px;
+  color: hsl(0, 37%, 72%);
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+#coming-soon {
+  color: hsl(0, 6%, 24%);
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  max-width: 300px;
+  margin-top: 5px;
+  line-height: 70px;
+}
+
+#description {
+  color: hsl(0, 36%, 70%);
+  margin-top: 25px;
+  max-width: 480px;
+}
+
+.email-subscribe {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#email-input {
+  padding: 15px 270px 15px 40px;
+  border: 0.5px solid pink;
+  border-radius: 40px;
+}
+
+#subscribe-btn {
+  background-image: linear-gradient(
+    270deg,
+    hsla(0, 93%, 68%, 0.877),
+    hsla(0, 58%, 83%, 0.816)
+  );
+  padding: 13px 40px 13px 40px;
+  border-radius: 40px;
+  border: 0px;
+  margin-left: -90px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* RIGHT SIDE STYLING */
+.right-side {
+  background: url(./assets/hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 659px;
+  height: 863px;
+}
+
+/* HOOVERS */
+.right-side:hover {
+  border: 5px solid rgb(255, 9, 136);
+}
+
+#subscribe-btn:hover {
+  background-image: linear-gradient(
+    270deg,
+    hsla(198, 86%, 55%, 0.877),
+    hsla(0, 58%, 83%, 0.816)
+  );
+}
+
+.left-side:hover {
+  border: 1px solid black;
+}
